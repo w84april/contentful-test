@@ -32,6 +32,11 @@ module.exports = withPlugins(plugins, {
     // serverComponents: true,
   },
 
+  i18n: {
+    locales: ['en', 'de'],
+    defaultLocale: 'en',
+  },
+
   /**
    * SWC minification opt-in
    * Please note that while not in experimental, the swcMinification may cause issues in your build.
